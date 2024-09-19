@@ -1,0 +1,76 @@
+.wrapper {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  max-height: max-content;
+}
+.close {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #1f2937;
+  padding: 1rem 0.5rem;
+  gap: 1rem;
+}
+.btnclose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  align-self: flex-end;
+  width: 29px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: -0.5rem;
+}
+.btnclose:hover {
+  background-color: #3e4c59;
+}
+.btnclose:hover svg {
+  fill: #c9c6c6;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -1.5rem;
+}
+.main p {
+  color: #c9c6c6;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.btns button:nth-child(1) {
+  background-color: #3e4c59;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid #c9c6c6;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.btns button:nth-child(2) {
+  background-color: #863b3b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.btns button:nth-child(1):hover {
+  background-color: #4b5563;
+}
+.btns button:nth-child(2):hover {
+  background-color: #dc2626;
+}

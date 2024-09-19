@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-cards {
+  background-color: #111827;
+  width: 100vw;
+  height: 100vh;
+}
+.container-cards-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+.container-cards-wrapper h1 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.container-vertical {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+/* Card One */
+
+.card-one {
+  width: 300px;
+  max-height: 600px;
+  height: fit-content;
+  background-color: #504f96;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  padding: 1rem;
+}
+.card-one-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-one-wrapper h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+.split-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+/* CardTwo */
+.card-two {
+  width: 300px;
+  max-height: 600px;
+  height: fit-content;
+  background-color: #504f96;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  padding: 1rem;
+}
+.card-two-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-two-wrapper h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+.split-cardtwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}

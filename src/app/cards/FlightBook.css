@@ -1,0 +1,40 @@
+.container-flight {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: max-content;
+}
+
+.flightbook {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 20px;
+  background-color: #1f2937;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+label {
+  color: white;
+  font-weight: 600;
+}
+.flightbook input {
+  margin: 0;
+  width: 100%;
+  height: 25px;
+}
+.buttonbook {
+  align-self: center;
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+select {
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+}
