@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "@mui/material/Button";
 const Modal = () => {
   return (
     <div className="my-5 max-h-max max-w-[450px] rounded-md bg-gray-800 text-slate-100 shadow-lg shadow-black">
@@ -26,6 +26,9 @@ const Modal = () => {
           <button className="rounded-md bg-red-500 px-3 py-1 shadow-md hover:bg-red-600">
             Accept
           </button>
+          <Button variant="contained" color="primary">
+            Primary
+          </Button>
         </div>
       </div>
     </div>
