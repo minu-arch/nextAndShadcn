@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "firstName": "csm",
+    "lastName": "minu",
+    "email": "love.benjamin2010@gmail.com",
+    "password": "aaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "id": 2,
+    "firstName": "max",
+    "lastName": "Robison",
+    "email": "m@netlify.com",
+    "password": "$2a$10$0c..u9r5vT590NpdFLQDjuyHo7HOGwSOXmeyusS4ohYfUUkQNU8Qa"
+  }
+]
